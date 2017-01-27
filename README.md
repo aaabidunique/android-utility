@@ -51,9 +51,6 @@ SharedPreferenceHelper.setBoolean(yourContext, yourKey, value);
 ``` java
 SharedPreferenceHelper.remove(yourContext, yourKey);
 ```
-``` java
-SharedPreferenceHelper.getString(yourContext, yourKey, defaultValue);
-```
 
 **BY DEFAULT IT IS USING "PREF" AS THE PREFERENCE FILE NAME**
 
