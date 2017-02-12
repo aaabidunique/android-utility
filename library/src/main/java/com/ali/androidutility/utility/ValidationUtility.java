@@ -19,17 +19,49 @@ public class ValidationUtility {
         }
     }
 
+    public static <E> boolean isEmpty(CharSequence charSequence) {
+        return ((charSequence == null) || (charSequence.length() == 0));
+    }
+
+    public static <E> boolean isNotEmpty(CharSequence charSequence) {
+        return !isEmpty(charSequence);
+    }
+
+    public static boolean isEmpty(String string) {
+        return ((string == null) || (string.equalsIgnoreCase("null") || (string.trim().length() == 0)));
+    }
+
+    public static boolean isNotEmpty(String string) {
+        return !isEmpty(string);
+    }
+
+    public static boolean isEmpty(Object[] array) {
+        return ((array == null) || (array.length == 0));
+    }
+
+    public static boolean isNotEmpty(Object[] array) {
+        return !isEmpty(array);
+    }
+
+    public static <K, E> boolean isEmpty(Map<K, E> map) {
+        return ((map == null) || (map.size() == 0));
+    }
+
+    public static <K, E> boolean isNotEmpty(Map<K, E> map) {
+        return !isEmpty(map);
+    }
+
+    public static <E> boolean isEmpty(Collection<E> collection) {
+        return ((collection == null) || (collection.size() == 0));
+    }
+
+    public static <E> boolean isNotEmpty(Collection<E> collection) {
+        return ((collection != null) && (collection.size() > 0));
+    }
+
     public static boolean isEmpty(Object object) {
         if (object == null)
             return true;
-        if (object instanceof String)
-            return isEmpty((String) object);
-        if (object instanceof Collection)
-            return isEmpty((Collection<?>) object);
-        if (object instanceof Map)
-            return isEmpty((Map<?, ?>) object);
-        if (object instanceof CharSequence)
-            return isEmpty((CharSequence) object);
         if (object instanceof Boolean)
             return false;
         if (object instanceof Number)
@@ -43,37 +75,5 @@ public class ValidationUtility {
 
     public static boolean isNotEmpty(Object object) {
         return !isEmpty(object);
-    }
-
-    public static boolean isEmpty(String string) {
-        return ((string == null) || (string.trim().length() == 0));
-    }
-
-    public static <E> boolean isEmpty(Collection<E> collection) {
-        return ((collection == null) || (collection.size() == 0));
-    }
-
-    public static <K, E> boolean isEmpty(Map<K, E> map) {
-        return ((map == null) || (map.size() == 0));
-    }
-
-    public static <E> boolean isEmpty(CharSequence charSequence) {
-        return ((charSequence == null) || (charSequence.length() == 0));
-    }
-
-    public static boolean isNotEmpty(String string) {
-        return ((string != null) && (string.length() > 0));
-    }
-
-    public static <E> boolean isNotEmpty(Collection<E> collection) {
-        return ((collection != null) && (collection.size() > 0));
-    }
-
-    public static <E> boolean isNotEmpty(CharSequence charSequence) {
-        return ((charSequence != null) && (charSequence.length() > 0));
-    }
-
-    public static boolean isString(Object object) {
-        return ((object != null) && (object instanceof String));
     }
 }
