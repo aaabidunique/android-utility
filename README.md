@@ -1,7 +1,7 @@
 # android-utility
 A handy set of utility for android
 
-[![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=9) [![](https://jitpack.io/v/aaabidunique/android-utility.svg)](https://jitpack.io/#aaabidunique/android-utility)
+[![API](https://img.shields.io/badge/API-9%2B-blue.svg?style=flat)](https://android-arsenal.com/api?level=9) [![](https://jitpack.io/v/aaabidunique/android-utility.svg)](https://jitpack.io/#aaabidunique/android-utility) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android%20utility-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5353)
 
 Add this in your root `build.gradle` file (**not** your module `build.gradle` file):
 
