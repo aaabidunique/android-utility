@@ -25,6 +25,22 @@ dependencies {
 }
 ```
 
+If you want to use the latest code present in branch `master` then use below code:
+
+```gradle
+dependencies {
+	...
+	compile 'com.github.aaabidunique:android-utility:master-SNAPSHOT'
+}
+```
+Gradle can cache the `SNAPSHOT` builds. You could add the following configuration in your build.gradle file in order to ensure Gradle always picks up the ‘freshest’ version of the build:
+
+```gradle
+configurations.all {
+    resolutionStrategy.cacheChangingModulesFor 0, 'seconds'
+}
+```
+
 ## List of Utility/Helper
 
 ### ClipBoardUtility
