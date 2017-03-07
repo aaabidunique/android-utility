@@ -49,6 +49,9 @@ This class is used for performing android clipboard related operation. [More Inf
 ### DefaultSharedPreferenceHelper
 This class is used for getting info from default android shared preferences. [More Info](https://github.com/aaabidunique/android-utility/wiki/DefaultSharedPreferenceHelper)
 
+### ExternalActionUtility
+This class is used for performingexternal action/operation. [More Info](https://github.com/aaabidunique/android-utility/wiki/ExternalActionUtility)
+
 ### SharedPreferenceHelper
 This class is used for performing operation on android shared preferences. [More Info](https://github.com/aaabidunique/android-utility/wiki/SharedPreferenceHelper)
 
