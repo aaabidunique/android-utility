@@ -1,12 +1,13 @@
 Change Log
 ===============================================================================
 
-Version 1.1.0 *(2017-XX-XX)* Unreleased
+Version 1.1.0 *(2017-03-23)*
 ----------------------------
 
- * Added validation for arrays.
- * refactored some code.
- * updated appcompat library.
+* Added validation for arrays.
+* Refactored some code and added methods which accept a file name as argument for preferred file in SharedPreferebceHelper.
+* Some code refactoring in the sample app.
+* Added ExternalActionUtility for performing openInStore and sendMail functionality.
 
 
 Version 1.0.0 *(2017-01-27)*
