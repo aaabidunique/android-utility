@@ -67,7 +67,7 @@ This class is used for performing validation for various java objects. [More Inf
 >  + Device Tool - [Playstore](https://play.google.com/store/apps/details?id=com.ali.deviceinfo)
 
 ### Created & Maintained By
-[Abid Ali](https://github.com/nisrulz/nisrulz.github.iohttps://github.com/aaabidunique/)
+[Abid Ali](https://github.com/aaabidunique/)
 
 > If you found this library helpful and want to help the developer, consider buying a cup of :coffee:
 >  + [PayPal](https://www.paypal.me/aaabidunique)
