@@ -7,17 +7,17 @@ import android.preference.PreferenceManager;
 public class DefaultSharedPreferenceHelper {
 
     public static String getString(Context context, String key, String defValue) {
-        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
-        return settings.getString(key, defValue);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getString(key, defValue);
     }
 
     public static int getInt(Context context, String key, int defValue) {
-        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
-        return settings.getInt(key, defValue);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getInt(key, defValue);
     }
 
     public static boolean getBoolean(Context context, String key, boolean defValue) {
-        SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
-        return settings.getBoolean(key, defValue);
+        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return preferences.getBoolean(key, defValue);
     }
 }
