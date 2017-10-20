@@ -61,3 +61,14 @@ This class is used for performing validation for various java objects. [More Inf
 **More coming soon...**
 
 **For complete docs click [here](https://github.com/aaabidunique/android-utility/wiki)**
+
+### Apps using android-utility
+> If you are using android-utility in your app and would like to be listed here, please let me know by opening a [new issue](https://github.com/aaabidunique/android-utility/issues/new)!
+
+>  + Device Tool - [Playstore](https://play.google.com/store/apps/details?id=com.ali.deviceinfo)
+
+### Created & Maintained By
+[Abid Ali](https://github.com/nisrulz/nisrulz.github.iohttps://github.com/aaabidunique/)
+
+> If you found this library helpful and want to help the developer, consider buying a cup of :coffee:
+>  + [PayPal](https://www.paypal.me/aaabidunique)
