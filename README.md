@@ -64,7 +64,6 @@ This class is used for performing validation for various java objects. [More Inf
 
 ### Apps using android-utility
 > If you are using android-utility in your app and would like to be listed here, please let me know by opening a [new issue](https://github.com/aaabidunique/android-utility/issues/new)!
-
 >  + Device Tool - [Playstore](https://play.google.com/store/apps/details?id=com.ali.deviceinfo)
 
 ### Created & Maintained By
