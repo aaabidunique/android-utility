@@ -1,7 +1,7 @@
 # android-utility
 A handy set of utility for android
 
-[![API](https://img.shields.io/badge/API-14%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=14) [![JitPack](https://img.shields.io/jitpack/v/jitpack/maven-simple.svg)](https://jitpack.io/#aaabidunique/android-utility) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android%20utility-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5353)
+[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0.html) [![API](https://img.shields.io/badge/API-14%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=14) [![JitPack](https://img.shields.io/jitpack/v/jitpack/maven-simple.svg)](https://jitpack.io/#aaabidunique/android-utility) [![Travis](https://img.shields.io/travis/rust-lang/rust.svg)](https://travis-ci.org/aaabidunique/android-utility) [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-android%20utility-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/5353)
 [![$ Donate!](https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat)](https://www.paypal.me/aaabidunique) [![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/aaabidunique)
 
 For integration refer [here](https://github.com/aaabidunique/android-utility/wiki/Integration)
