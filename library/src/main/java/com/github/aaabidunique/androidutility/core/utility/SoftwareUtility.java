@@ -13,7 +13,7 @@ public class SoftwareUtility {
     /**
      * @return return the codename for android based on sdk version.
      */
-    private static String getAndroidName() {
+    public static String getAndroidName() {
         switch (Build.VERSION.SDK_INT) {
             case 1:
                 return "BASE";
